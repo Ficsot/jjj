@@ -1,3 +1,5 @@
+<?php 
+
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
 $number = $_POST['user_number'];
@@ -20,3 +22,5 @@ if ($sendToTelegram) {
 } else (
     echo "Error"
 )
+
+?>
